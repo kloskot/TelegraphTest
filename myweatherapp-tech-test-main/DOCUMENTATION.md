@@ -16,6 +16,9 @@ rainStatus(String city1, String city2): returns the appropriate response based o
 
 I have chosen to organise my code into two distinct functions for each task. One of the functions handles the operations (calculating, searching) and the other handles the comparison between the two outputs derived from the operations. This is the way I decomposed the problem. It allows for easy readability and reuse of code if need be.
 
+##TESTS
+I have created two tests folders and files, one for the operation functions (getSunTimings() and isRaining()) and one for the comparison endpoint functions (findDifference() and  rainStatus()). I did so as both require similar sets of information and undergo similar tests. I tested mainly for valid input, boundary input, null input and error input.
+
 ## EXTRA
 
 Throughout my code I have written comments explaining key points and other decisions I have made throughout development. I have also included notes on possible areas of improvement that I would explore given more time. 
